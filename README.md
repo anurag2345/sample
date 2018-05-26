@@ -69,7 +69,6 @@ project settings. Copy the `Web API Key` and the `Project ID` from the `General`
 1. Open file agent-human-handoff-nodejs/static/AppConfig.js and update following values
 	`DOMAIN: <ip where server is to be run>`
 	`OPERATOR_GREETING: <message sent when esclated to operator>`
-	
 	`SEND_CUSTOMER_DELAY_MESSAGES: <whether send message to customer if they don't respond>`
 	`SEND_OPERATOR_DELAY_MESSAGES: <whether send message to customer if operator doesn't respond>`
 	`IDLE_CUSTOMER_WAIT_TIME: <number of milliseconds after which CUSTOMER_DELAY_MESSAGE is sent>`
